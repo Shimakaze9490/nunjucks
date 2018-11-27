@@ -8,7 +8,8 @@
 7. app2.js
 9. git
 10. eslint
-npm install eslint --save-dev
-npm eslint-config-standard eslint-plugin-standard eslint-plugin-promise
-eslint --init
-配置.eslintrc.js 和 public-eslintrc.js
+    npm install eslint --save-dev
+    npm eslint-config-standard eslint-plugin-standard eslint-plugin-promise
+    eslint --init
+    配置.eslintrc.js 和 public-eslintrc.js
+    执行 eslint ./app.js (--fix)
