@@ -1,4 +1,4 @@
-## nunjucks学习
+## nunjucks
 1. npm init
 2. add README.md
 3. npm install nunjucks --save
