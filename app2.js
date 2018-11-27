@@ -13,5 +13,6 @@ app.use(async ctx => {
     ctx.response.body = nunjucks.render("hello.html", { name: "nunjucks" });
 });
 app.listen(port, res => {
+    // eslint-disable-next-line
     console.log("running server at port:"+ port);
 });
